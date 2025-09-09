@@ -35,7 +35,10 @@
 ![](./stopto2.png)
 
 **Software Engineer (Part-time)** — *Olinteach* | Shanghai, China *(Feb 2025 – April 2025)*  
-- 🌐 Designed and implemented an **online foreign teacher booking platform**, work with my colleague integrating scheduling, authentication, and payment.
+- Make a advertising mobile app that can automatically replace user's name into the dubbing voice of a prepared video.
+- Uses Tencent Cloud's media API to process the video and add subtitles procedually.
+- Uses Tencent Cloud's digital human API to replace user's face into the video's default face.
+- Use Wechat's serverless platform to run all the backend codes(nodejs) and store data in its Cloud database.
 
 **Volunteer Developer** — *Consoul-in Mental Health Initiative* | *(2024)*  
 - 💬 Built an online **therapist–patient communication platform** supporting remote mental health counseling.  
