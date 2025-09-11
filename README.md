@@ -7,7 +7,7 @@
 ## 🎓 Education
 1. **University of Illinois Urbana-Champaign (UIUC)** *(2025-now)* — *Freshman student in Computer Engineering*  
 (Expected Graduation: 2029)  
-2. **Suzhou Foreign Language School (SFLS)** *(2022-2025)*   
+  
 ---
 
 
