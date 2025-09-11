@@ -7,7 +7,6 @@
 ## 🎓 Education
 1. **University of Illinois Urbana-Champaign (UIUC)** *(2025-now)* — *Freshman student in Computer Engineering*  
 (Expected Graduation: 2029)  
-2. **Suzhou Foreign Language School (High School, GPA 4.0/4.0)** *(2022-2025)* 
 ---
 
 
