@@ -74,11 +74,18 @@
 ![](./imagerop1.png)  
 **Custom x86-64 Operating System** *(2022)*  
 - 🖥 Developed from scratch, implementing **VMM**, **VFS**, and multitasking in C.  
+- <img width="1490" height="272" alt="image" src="https://github.com/user-attachments/assets/a9281ecd-f994-4096-becd-ce64faa44ebd" />  
+- <img width="2360" height="1322" alt="image" src="https://github.com/user-attachments/assets/b284f009-9d6b-4488-ae57-589e53f654b1" />
+
 - Github Repository: [QNOS](https://github.com/qiufuyu123/qnos)  
 
 **Quick-C Compiler** *(2025)*  
-- ⚡ Building a **C-like language compiler** entirely in C, focusing on speed and minimal dependencies.
+- ⚡ Building a **C-like language compiler** entirely in C, focusing on speed and minimal dependencies.  
 - [Quick-C Compiler](https://github.com/qiufuyu123/quick-c)
+- <img width="951" height="1080" alt="image" src="https://github.com/user-attachments/assets/7c54d557-c3d6-49b0-b1a7-82da4feb6d53" />
+- <img width="938" height="1095" alt="image" src="https://github.com/user-attachments/assets/e88b3282-fb1a-4a1c-9930-7cd7aa427d1e" />
+
+
 ---
 
 ## 🛠 Technical Skills
