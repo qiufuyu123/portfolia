@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuyu Qiu</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Fuyu Qiu</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content-wrapper">
+                <div class="hero-headshot">
+                    <img src="./headshot.jpg" alt="Fuyu Qiu" class="clickable-image">
+                </div>
+                <div class="hero-content">
+                    <h1 class="hero-name">Fuyu Qiu</h1>
+                    <p class="hero-description">
+                        I am a Computer Engineering student at the University of Illinois Urbana-Champaign. My research interests lie at the intersection of artificial intelligence, computer vision, and educational technology. I've been working on a broad range of topics, including multimodal large language models, AIGC pipelines for educational content, and full-stack software development. Currently, I am co-founding OpenEd, developing multimodal VLMs at Rehg Lab, and working on projects that bridge cutting-edge research with practical applications.
+                    </p>
+                    <p class="hero-description">
+                        I received my B.S. in Computer Engineering from the University of Illinois Urbana-Champaign (Expected Graduation: May 2029), with a GPA of 4.0/4.0.
+                    </p>
+                    <div class="contact-info">
+                        <table>
+                            <tr>
+                                <td><strong>Email:</strong></td>
+                                <td>qiufuyutony (at) gmail (dot) com</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Find me on:</strong></td>
+                                <td>
+                                    <a href="https://github.com/qiufuyu123" target="_blank">GitHub</a> | 
+                                    <a href="https://www.linkedin.com/in/fuyuqiu/" target="_blank">LinkedIn</a> | 
+                                    <a href="https://qiufuyu123.github.io/portfolia/" target="_blank">Website</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><strong>Address:</strong></td>
+                                <td>409 E Chalmers St., Champaign, IL 61820</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Resume:</strong></td>
+                                <td><a href="./resume_latest.pdf" target="_blank" download>Download PDF</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="section">
+        <div class="container">
+            <h2 class="section-title">News</h2>
+            <table class="news-table">
+                <tr>
+                    <td class="news-date">2025.01</td>
+                    <td>Co-founded OpenEd, developing AIGC pipeline for STEM educational video generation.</td>
+                </tr>
+                <tr>
+                    <td class="news-date">2025.01</td>
+                    <td>Started as Undergraduate Research Assistant at Rehg Lab, working on Multimodal Video Large Language Models for Social AI applications.</td>
+                </tr>
+                <tr>
+                    <td class="news-date">2024.08</td>
+                    <td>Completed Software Engineering Internship at Stopto-Optics, developing industrial-grade analysis suite with React, Electron, and Babylon.js.</td>
+                </tr>
+                <tr>
+                    <td class="news-date">2024.06</td>
+                    <td>Completed Mobile Full-Stack Developer Internship at Olinteach, engineering serverless Node.js backend for AIGC pipelines.</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-content-wrapper">
+                    <div class="experience-text">
+                        <div class="experience-header">
+                            <h3>Co-founder & Lead Software Engineer</h3>
+                            <span class="company">OpenEd</span>
+                        </div>
+                        <p class="period-location">Remote / Champaign, IL | Jan 2025 – Present</p>
+                        <ul class="experience-list">
+                            <li>Architected and deployed a specialized AIGC pipeline that transforms natural language into precise STEM educational videos by using LLMs to generate structured animation code rather than stochastic diffusion frames.</li>
+                            <li>Ensured 100% visual consistency and mathematical accuracy for complex scientific content, including dynamic coordinate systems, geometric proofs, and LaTeX-rendered equations, by orchestrating a Python-based visualization engine.</li>
+                            <li>Built a scalable SaaS backend on Alibaba Cloud using Docker, Redis for task queuing, and Postgres to manage the reliable execution of high-concurrency rendering jobs.</li>
+                            <li>Developed a custom orchestration layer in TypeScript to manage multi-step LLM workflows (Gemini, Claude), bridging the gap between raw AI output and production-ready visual assets.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="opened-videos">
+                    <div class="video-wrapper">
+                        <video autoplay loop muted playsinline controls>
+                            <source src="./ExplainIntegral.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="video-label">Explain Integral</p>
+                    </div>
+                    <div class="video-wrapper">
+                        <video autoplay loop muted playsinline controls>
+                            <source src="./ExplainStack.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="video-label">Explain Stack</p>
+                    </div>
+                    <div class="video-wrapper">
+                        <video autoplay loop muted playsinline controls>
+                            <source src="./HooksLaw-1 (1).mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <p class="video-label">Hook's Law</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-content-wrapper">
+                    <div class="experience-text">
+                        <div class="experience-header">
+                            <h3>Undergraduate Research Assistant</h3>
+                            <span class="company"><a href="https://rehg.org/" target="_blank">Rehg Lab</a> (Prof. Jim Rehg), UIUC</span>
+                        </div>
+                        <p class="period-location">Champaign, IL | Aug 2025 – Present</p>
+                        <ul class="experience-list">
+                            <li>Developing Multimodal Video Large Language Models (VLM) for Social AI applications, specifically focused on processing complex temporal video data to interpret human social behaviors.</li>
+                            <li>Architecting large-scale data pipelines and fine-tuning vision-language models to bridge the gap between raw visual features and high-level semantic behavior understanding.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-content-wrapper">
+                    <div class="experience-image">
+                        <img src="./stopto1.png" alt="Stopto-Optics Device" class="clickable-image">
+                        <img src="./stopto2.png" alt="Stopto-Optics Analysis" class="clickable-image">
+                        <img src="./image.png" alt="Lens Designer" class="clickable-image">
+                        <img src="./image2.png" alt="Lens Visualization" class="clickable-image">
+                        <img src="./lensvisual.gif" alt="Lens Visual Tool" class="clickable-image">
+                    </div>
+                    <div class="experience-text">
+                        <div class="experience-header">
+                            <h3>Software Engineering Intern (Full-Stack & Vision)</h3>
+                            <span class="company">Stopto-Optics</span>
+                        </div>
+                        <p class="period-location">Zhenjiang, China | May 2025 – Aug 2025</p>
+                        <ul class="experience-list">
+                            <li>Developed an industrial-grade analysis suite using React, Electron, and Babylon.js, creating a rich 3D spatial environment to visualize high-precision optical surface data beyond 2D limitations.</li>
+                            <li>Bridged low-level hardware communication with the Web DOM to enable real-time, low-latency feedback loops between physical optical sensors and the user interface.</li>
+                            <li>Optimized custom YOLOv11 object detection models using ONNX Runtime for high-efficiency inference on ARM-based embedded processors like Raspberry Pi.</li>
+                            <li>Implemented a robust remote Over-The-Air (OTA) update system using C#, ensuring seamless deployment and reliable version control for software running on industrial edge devices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-content-wrapper">
+                    <div class="experience-text">
+                        <div class="experience-header">
+                            <h3>Mobile Full-Stack Developer Intern</h3>
+                            <span class="company">Olinteach</span>
+                        </div>
+                        <p class="period-location">Shanghai, China | June 2024 – Aug 2024</p>
+                        <ul class="experience-list">
+                            <li>Engineered a serverless Node.js backend to orchestrate AIGC pipelines, ensuring stable API performance and low-latency delivery for an automated video synthesis application.</li>
+                            <li>Collaborated in an Agile environment to integrate Cloud Media APIs for real-time digital avatar replacement and video post-processing workflows.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-content-wrapper">
+                    <div class="experience-text">
+                        <div class="experience-header">
+                            <h3>Volunteer Developer</h3>
+                            <span class="company">Consoul-in Mental Health Initiative</span>
+                        </div>
+                        <p class="period-location">2024</p>
+                        <ul class="experience-list">
+                            <li>Built an online therapist–patient communication platform supporting remote mental health counseling.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <div class="experience-header">
+                    <h3>University of Illinois Urbana-Champaign</h3>
+                    <span class="company">B.S. in Computer Engineering</span>
+                </div>
+                <p class="period-location">Champaign, IL | Expected Graduation: May 2029</p>
+                <p><strong>GPA:</strong> 4.0/4.0</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-media-left">
+                        <img src="./fiducia-1.jpg" alt="A3A Protocol Demo 1" class="clickable-image">
+                        <img src="./fiducia-2.jpg" alt="A3A Protocol Demo 2" class="clickable-image">
+                        <img src="./fiducia-3.jpg" alt="A3A Protocol Demo 3" class="clickable-image">
+                        <img src="./fiducia-4.jpg" alt="A3A Protocol Demo 4" class="clickable-image">
+                        <img src="./fiducia-5.jpg" alt="A3A Protocol Demo 5" class="clickable-image">
+                    </div>
+                    <div class="project-text">
+                        <h3>A3A Protocol - Agentic AI & Web3 Commerce Platform</h3>
+                        <p class="project-meta">ETHGlobal ETHOnline 2025 | <a href="https://ethglobal.com/showcase/a3a-protocol-e8rcx" target="_blank">ETHGlobal Showcase</a> | <a href="https://www.linkedin.com/posts/clckkkkk_web3-blockchain-asi-ugcPost-7388155938739834880-1QsY" target="_blank">LinkedIn</a></p>
+                        <p>Built the A3A Protocol enabling secure, real-time communication and payments between AI agents on Web3. Developed a Next.js-based backend for an autonomous commerce system that manages the entire order lifecycle, including logistics, payments, and status verification through a conversational interface. Integrated smart contracts and deployed on the ASI Agentverse for Fiducia Agents.</p>
+                        <p>Implemented function calling to dynamically translate natural language prompts into executable database operations and blockchain transactions, enabling seamless agent-to-user interaction.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-media-left">
+                        <img src="./surf.gif" alt="AI Surf Game" class="clickable-image">
+                    </div>
+                    <div class="project-text">
+                        <h3>AI Play Edge Browser's Surf Game</h3>
+                        <p class="project-meta">Reinforcement Learning | 2025 | <a href="https://github.com/qiufuyu123/surfbot" target="_blank">GitHub</a></p>
+                        <p>Trained an AI model using reinforcement learning techniques to autonomously play the Edge browser's surf game. The model learns optimal strategies through trial and error, achieving high scores consistently.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-text">
+                        <h3>LLM-Driven Interactive System for Accessibility</h3>
+                        <p class="project-meta">AI Research Project | 2024</p>
+                        <p>Partnered with clinical psychology experts to design an inclusive educational tool for children with ASD, focusing on interactive scenarios to practice social navigation. Engineered an adaptive learning system featuring LLM-driven question generation, a responsive mobile frontend, and a backend analytics engine to monitor and visualize student progress metrics.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-text">
+                        <h3>MBTI Personality Classifier Chatbot</h3>
+                        <p class="project-meta">Deep Learning & NLP Application | 2024 | <a href="https://github.com/qiufuyu123/Chatify" target="_blank">GitHub</a></p>
+                        <p>Developed an interactive application that performs multi-label text classification on WeChat chat logs using a fine-tuned BERT model to infer MBTI personality types. Designed a preprocessing pipeline to handle unstructured social media data, implementing custom tokenization and context extraction techniques to improve model inference accuracy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-media-left">
+                        <video autoplay loop muted playsinline controls>
+                            <source src="./demoscene.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="project-text">
+                        <h3>A Simple Demoscene</h3>
+                        <p class="project-meta">Graphics Programming | 2025</p>
+                        <p>Created a demoscene program in less than 4KB size, featuring animated procedural 3D objects and procedural music. Demonstrates advanced techniques in code optimization and real-time graphics rendering.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-media-left">
+                        <img src="./imagerop1.png" alt="Casio Calculator ROP" class="clickable-image">
+                        <img src="./CASIOFXCNX利用ROP执行任意代 -small-original (1).gif" alt="Casio ROP Demo" class="clickable-image">
+                    </div>
+                    <div class="project-text">
+                        <h3>Casio Calculator Reverse Engineering</h3>
+                        <p class="project-meta">Security Research | 2023 | <a href="https://github.com/Physics365/991CN-X-CW-Decompilation" target="_blank">GitHub</a> | <a href="https://github.com/qiufuyu123/CasioEmuNeo" target="_blank">Simulator</a></p>
+                        <p>Discovered and exploited a stack overflow vulnerability in Casio fx-991CNX, enabling execution of arbitrary code using Return-Oriented Programming (ROP). Published findings on Zhihu and GitHub, fostering a research community around calculator security.</p>
+                        <p class="project-links">Documentation: <a href="https://zhuanlan.zhihu.com/p/618704031" target="_blank">Part 1</a> | <a href="https://zhuanlan.zhihu.com/p/620584634" target="_blank">Part 2</a> | <a href="https://zhuanlan.zhihu.com/p/657962148" target="_blank">Part 3</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-text">
+                        <h3>Custom x86-64 Operating System (QNOS)</h3>
+                        <p class="project-meta">Systems Programming | 2022 | <a href="https://github.com/qiufuyu123/qnos" target="_blank">GitHub</a></p>
+                        <p>Developed an operating system from scratch in C, implementing Virtual Memory Management (VMM), Virtual File System (VFS), and multitasking capabilities. Demonstrates deep understanding of low-level systems programming and computer architecture.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-text">
+                        <h3>Quick-C Compiler</h3>
+                        <p class="project-meta">Compiler Design | 2025 | <a href="https://github.com/qiufuyu123/quick-c" target="_blank">GitHub</a></p>
+                        <p>Building a C-like language compiler entirely in C, focusing on speed and minimal dependencies. The project emphasizes clean code generation and efficient parsing techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Achievements Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Achievements</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <p>C (proficient), C++ (proficient), Python (proficient), Java & C# (familiar), JavaScript (proficient), SQL (familiar)</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Tools</h3>
+                    <p>Node.js, MySQL, Nginx, React, Electron, Qt, Avalonia, Docker, PyTorch</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Development Areas</h3>
+                    <p>Backend services, GUI frameworks, Embedded systems, Reverse engineering, AI/ML, Computer Vision</p>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">Achievements</h3>
+            <ul class="achievements-list">
+                <li>Gold division in USACO</li>
+                <li>VEX Robotics Competition — Regional First Prize</li>
+                <li>FRC Robotics Competition — Shanghai Playoff Runner-up, Silver</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <hr>
+            <p>&copy; Fuyu Qiu, 2025</p>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
