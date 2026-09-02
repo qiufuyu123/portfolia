@@ -35,7 +35,7 @@
                 <div class="hero-content">
                     <h1 class="hero-name">Fuyu Qiu</h1>
                     <p class="hero-description">
-                        I am a Computer Engineering student at the University of Illinois Urbana-Champaign. My research interests lie at the intersection of artificial intelligence, computer vision, and educational technology. I've been working on a broad range of topics, including multimodal large language models, AIGC pipelines for educational content, and full-stack software development. Currently, I am co-founding OpenEd, developing multimodal VLMs at Rehg Lab, and working on projects that bridge cutting-edge research with practical applications.
+                        I am a Computer Engineering student at the University of Illinois Urbana-Champaign. My research interests lie at the intersection of artificial intelligence, computer vision, and educational technology. I've been working on a broad range of topics, including multimodal large language models, embodied human–robot interaction, AIGC pipelines for educational content, and full-stack software development. Currently, I am co-founding OpenEd, developing multimodal VLMs at Rehg Lab, and working on projects that bridge cutting-edge research with practical applications.
                     </p>
                     <p class="hero-description">
                         I received my B.S. in Computer Engineering from the University of Illinois Urbana-Champaign (Expected Graduation: May 2029), with a GPA of 4.0/4.0.
@@ -75,6 +75,18 @@
             <h2 class="section-title">News</h2>
             <table class="news-table">
                 <tr>
+                    <td class="news-date">2026.08</td>
+                    <td>Completed the Interaction Intelligence internship at AgiBot (智元机器人), building the facial expression system and the human–robot interaction agent for the A3 robot.</td>
+                </tr>
+                <tr>
+                    <td class="news-date">2026.07</td>
+                    <td>Announced <a href="https://www.iminklet.com/" target="_blank">inklet</a>, connected e-ink ambient displays with a cloud Portal and a TypeScript SDK.</td>
+                </tr>
+                <tr>
+                    <td class="news-date">2026.05</td>
+                    <td>Released <a href="https://github.com/qiufuyu123/Positron" target="_blank">Positron</a>, a runtime JavaScript injection toolkit for Electron applications on Windows.</td>
+                </tr>
+                <tr>
                     <td class="news-date">2025.01</td>
                     <td>Co-founded OpenEd, developing AIGC pipeline for STEM educational video generation.</td>
                 </tr>
@@ -99,6 +111,22 @@
         <div class="container">
             <h2 class="section-title">Experience</h2>
             
+            <div class="experience-item">
+                <div class="experience-content-wrapper">
+                    <div class="experience-text">
+                        <div class="experience-header">
+                            <h3>Multimodal Robot Dialogue Intern (Interaction Intelligence)</h3>
+                            <span class="company">AgiBot (智元机器人)</span>
+                        </div>
+                        <p class="period-location">Jun 2026 – Aug 2026</p>
+                        <ul class="experience-list">
+                            <li>Built the head expression system for the AgiBot A3 robot, rendering parameterized and semantically driven facial expressions in real time from the text the robot is speaking, so that its affect stays synchronized with live speech.</li>
+                            <li>Developed the human–robot interaction agent for A3, covering long-horizon task planning, vision-grounded tasks, and real-time barge-in — the agent can be interrupted mid-task and re-enter the suspended plan once the interruption is handled.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
             <div class="experience-item">
                 <div class="experience-content-wrapper">
                     <div class="experience-text">
@@ -231,6 +259,36 @@
             <div class="project-item">
                 <div class="project-content-wrapper">
                     <div class="project-media-left">
+                        <img src="./inklet-1.png" alt="inklet ambient e-ink display" class="clickable-image">
+                    </div>
+                    <div class="project-text">
+                        <h3>inklet — Ambient E-Ink Displays for Your Second Brain</h3>
+                        <p class="project-meta">Connected Hardware &amp; Cloud Platform | 2026 | <a href="https://www.iminklet.com/" target="_blank">Website</a> | <a href="https://www.linkedin.com/feed/update/urn:li:activity:7486074849921089536/" target="_blank">LinkedIn</a></p>
+                        <p>inklet builds connected e-ink displays that bring the right information into the rooms where you live and work — contextual rather than chaotic, with no backlight and no notifications to fight for attention. The D1 display and the H1 Compute Hub sync notes, schedules, and documents from Notion, Craft, and Obsidian, and AI content routing decides which screen in which room a given piece of content belongs on.</p>
+                        <p>On the software side, Portal is the cloud dashboard that manages every display from one place, and the Portal SDK (@inklethq/sdk) reduces publishing to a single typed call: hand push.auto() text, a link, an image, or a PDF, and inklet handles layout, room selection, and panel rendering. Content can run through Portal cloud or stay entirely on a self-hosted Compute Hub, keeping the system private by design.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-media-left">
+                        <img src="./positron-1.png" alt="Positron process listing and demo app" class="clickable-image">
+                        <img src="./positron-2.png" alt="Positron REPL in the renderer world" class="clickable-image">
+                        <img src="./positron-3.png" alt="Positron live DOM manipulation" class="clickable-image">
+                    </div>
+                    <div class="project-text">
+                        <h3>Positron — Runtime JS Injection Toolkit for Electron</h3>
+                        <p class="project-meta">Systems &amp; Reverse Engineering | 2026 | <a href="https://github.com/qiufuyu123/Positron" target="_blank">GitHub</a></p>
+                        <p>Positron attaches to any running Electron application on Windows and evaluates JavaScript inside its main or renderer process — without restarting the target or modifying its files. A C++ host manually maps a payload DLL into the process, resolves V8 symbols through fuzzy PE export matching, and bootstraps a JavaScript server on the V8 main thread; the payload then self-unmaps, so nothing native is left in memory and later sessions reconnect straight to the live JS server instead of re-injecting.</p>
+                        <p>The toolkit ships an interactive REPL that switches between the main and renderer worlds, a module system with lifecycle hooks for hot load and unload, one-shot command execution, x64 and x86 support, and a C++ SDK for programmatic integration.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-item">
+                <div class="project-content-wrapper">
+                    <div class="project-media-left">
                         <img src="./fiducia-1.jpg" alt="A3A Protocol Demo 1" class="clickable-image">
                         <img src="./fiducia-2.jpg" alt="A3A Protocol Demo 2" class="clickable-image">
                         <img src="./fiducia-3.jpg" alt="A3A Protocol Demo 3" class="clickable-image">
@@ -348,7 +406,7 @@
                 </div>
                 <div class="skill-category">
                     <h3>Development Areas</h3>
-                    <p>Backend services, GUI frameworks, Embedded systems, Reverse engineering, AI/ML, Computer Vision</p>
+                    <p>Backend services, GUI frameworks, Embedded systems, Reverse engineering, AI/ML, Computer Vision, Human–robot interaction</p>
                 </div>
             </div>
 
@@ -366,7 +424,7 @@
     <footer class="footer">
         <div class="container">
             <hr>
-            <p>&copy; Fuyu Qiu, 2025</p>
+            <p>&copy; Fuyu Qiu, 2026</p>
         </div>
     </footer>
 
